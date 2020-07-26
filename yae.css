@@ -1,28 +1,51 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 header{
   height:65px;
-  width:100px;
-  background-color:rgba(34,49,52,0.9);
+  width:100%;
+  background-color:#5f5d60;
   position:fixed;
   top:0;
   z-index:10;
 }
 .companyName{
-
+  font-size:25px;
+  color:white;
 }
 .header-left{
   float:left;
 }
-.header-right{
-  float:right;
-  background-color:rgba(255,255,255,0.3);
-  transition: all 0.5s;
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image:url("https://drive.google.com/file/d/1XhrvH-cX6zKt9FP1sMLfeTFzTpCvGfGV/view?usp=sharing");
+  text-align:center;
 }
-.header-right:hover{
-  background-color:rgba(255,255,255,0.5)
+.container{
+  width:1170px;
+  margin:0 auto;
 }
-.header-right a{
-  line-height:54px;
-  padding:0 25px;
-  color:white;
-  display:block;
+.top-wrapper h1{
+  font-size:45px;
+  letter-spacing: 5px;
+}
+.top-wrapper p{
+  font-size:20px
 }
