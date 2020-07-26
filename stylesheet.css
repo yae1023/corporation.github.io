@@ -35,6 +35,7 @@ header{
 
 .top-wrapper{
   padding:180px 0 100px 0;
+  background-image:url(background_photo.jpg);
   text-align:center;
 }
 .container{
